@@ -7,17 +7,17 @@ const nuevaString = 'Intentando';
 const nuevoNum = 2;
 
 // Crea una variable booleana:
-const noEntiendoNada= true;
+const nuevoBool = true;
 
 
 // Resuelve el siguiente problema matemático:
-const nuevaResta = 10 - 5 === 5;
+const nuevaResta = 10 - 5 === 5
 
 // Resuelve el siguiente problema matemático:
-const nuevaMultiplicacion = 10 * 4=== 40 ;
+const nuevaMultiplicacion = 10 * 4=== 40 
 
 // Resuelve el siguiente problema matemático:
-const nuevoModulo = 21 % 5 === 4.2;
+const nuevoModulo = 21 % 5 === 4.2
 
 
 // En los próximos 22 problemas, deberás completar la función.
@@ -29,7 +29,7 @@ const nuevoModulo = 21 % 5 === 4.2;
 function devolverString(str) {
   // "Return" la string provista: str
   // Tu código:
-   return str;
+  return str;
 }
 
 
@@ -188,15 +188,15 @@ function combinarNombres(nombre, apellido) {
   // Devuelve "nombre" y "apellido" combinados en una string y separados por un espacio.
   // Ejemplo: "Soy", "Henry" -> "Soy Henry"
   // Tu código:
-  var combinado = nombre + '' + apellido;
-  return combinado;
+  var combinado = nombre  +  ''  + apellido;
+  return combinado ;
 }
 
 function obtenerSaludo(nombre) {
   // Toma la string "nombre" y concatena otras string en la cadena para que tome la siguiente forma:
   // "Martin" -> "Hola Martin!"
   // Tu código:
-  return 'Hola' + nombre + '!';
+  return 'Hola ' +  nombre  + '!';
   
 }
 
